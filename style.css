@@ -7,9 +7,15 @@
 
 a{
     text-decoration: none;
+    color: white;
 }
-body{
-    background-color: red;
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
 }
 
 /*END GENERALS */
@@ -40,7 +46,9 @@ body{
 
 
 /* HEADER  */
-
+header a{
+    text-transform: uppercase;
+}
 
 
 nav{
@@ -53,12 +61,6 @@ nav{
 }
 
 
-header h1, 
-header h5{
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-}
 
 header h5{
     padding: 0 10px;
@@ -78,7 +80,97 @@ header h5{
     width: 400px;
 }
 
-.fakts{
-    margin-bottom: 50px;
-}
+
 /*END HEADER  */
+
+
+/* MAIN  */
+
+
+/* portfolio  */
+section{
+    padding: 50px 0;
+}
+.portfolio .portfolio-images .row .col-12{
+    margin-bottom: 10px;
+}
+.portfolio .portfolio-images .row .col-12 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* about  */
+.about{
+    background-color: #1abc9c;
+    color: white;
+}
+
+
+.text{
+    padding: 20px ;
+}
+
+
+.download-button {
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    padding: 8px;
+}
+
+.download-button a{
+    color: white;
+}
+
+
+
+/* contact me  */
+input, textarea{
+    border:none;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+::placeholder{
+    color: black;
+    opacity: 1;
+
+}
+
+button{
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70px;
+    color: white;
+}
+
+/*END MAIN  */
+
+
+/* FOOTER  */
+.contacts{
+    background-color: #3a546d;
+    color: white;
+}
+
+.contacts h3{
+    text-transform: uppercase;
+}
+    
+.contacts h3,
+.contacts p,
+.txtcenter,
+.copyrights p{
+    text-align: center;
+}
+
+
+
+
+.copyrights{
+    background-color: #2c3e50;
+    color: white;
+}
+/*END FOOTER  */
