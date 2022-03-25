@@ -18,6 +18,9 @@ h1{
 
 }
 
+.col-12{
+    margin: 12px 0;
+}
 /*END GENERALS */
 
 /*utilitys */
@@ -101,7 +104,7 @@ section{
     padding: 50px 0;
 }
 .portfolio .portfolio-images .row .col-12{
-    margin-bottom: 10px;
+    margin: 12px 0;
 }
 .portfolio .portfolio-images .row .col-12 img{
     width: 100%;
