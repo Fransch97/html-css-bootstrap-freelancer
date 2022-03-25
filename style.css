@@ -1,0 +1,84 @@
+/* GENERALS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color: red;
+}
+
+/*END GENERALS */
+
+/*utilitys */
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: aqua;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: yellowgreen;
+}
+
+.height100{
+    height: 100%;
+}
+ 
+.border-d{
+    border: 2px solid black;
+}
+/* end utilitys */
+
+
+
+/* HEADER  */
+
+
+
+nav{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    background-color: #2c3e50;
+}
+
+
+header h1, 
+header h5{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+header h5{
+    padding: 0 10px;
+}
+
+
+
+.jumbotron{
+    margin-top: 100px;
+    height: 60vh;
+    background-color: #1abc9c;
+    color: white;
+    text-transform: uppercase;
+}
+
+.jumbotron img{
+    width: 400px;
+}
+
+.fakts{
+    margin-bottom: 50px;
+}
+/*END HEADER  */
