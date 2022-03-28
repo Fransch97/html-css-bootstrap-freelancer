@@ -86,6 +86,7 @@ header a{
 nav{
     height: 100px;
     width: 100%;
+    min-width: 473px;
     position: fixed;
     top:0;
     z-index: 1000;
@@ -113,26 +114,6 @@ header h5{
 
 .jumbotron img{
     width: 400px;
-}
-
-
-
-
-/* SECOND NAV ART  */
-
-.navbackground{
-    background-color: #2c3e50 !important;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-.not-grow {
-    flex-grow: 0 !important;
-}
-a{
-    color: white !important;
-    text-transform: uppercase;
 }
 
 /*END HEADER  */
