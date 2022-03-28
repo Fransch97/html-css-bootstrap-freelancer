@@ -154,6 +154,14 @@ section{
     padding: 8px;
 }
 
+.download-button:hover{
+    background-color: white;
+}
+
+.download-button:hover a{
+    color: black;
+}
+
 .download-button a{
     color: white;
 }
