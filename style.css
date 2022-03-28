@@ -21,6 +21,12 @@ body{
     min-width: 473px;
 }
 
+p{
+    font-weight: 600;
+}
+li{
+    list-style: none;
+}
 .col-12{
     margin: 12px 0;
 }
@@ -135,6 +141,7 @@ section{
     border-radius: 20px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 .portfolio .portfolio-images .row .col-12 img{
     width: 100%;
@@ -166,6 +173,7 @@ section{
 
 .text{
     padding: 20px ;
+    width: 60%;
 }
 
 
@@ -216,6 +224,21 @@ button:hover{
     background-color: #148f77;
 }
 
+/* contacts  */
+.contacts p span{
+    color: #1abc9c;
+}
+
+.fa-brands{
+    line-height: 50px;
+    width: 52px;
+    border: solid 1px white;
+    font-size: 20px;
+    background-color: #3a546d;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
 /*END MAIN  */
 
 
