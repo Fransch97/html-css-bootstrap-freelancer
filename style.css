@@ -24,6 +24,27 @@ body{
 .col-12{
     margin: 12px 0;
 }
+
+.star-line{
+    padding: 2px;
+    background-color: white;
+    width: 20%;
+    border-radius: 5px;
+    filter: invert(-1);
+}
+
+.star-line.black{
+    background-color: black;
+}
+
+.star-svg{
+    margin: 0 10px;
+    color: white;
+}
+
+.star-svg.black{
+    color: black;
+}
 /*END GENERALS */
 
 /*utilitys */
