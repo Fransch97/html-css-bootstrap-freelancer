@@ -115,6 +115,32 @@ header h5{
 .jumbotron img{
     width: 400px;
 }
+.burger-menu{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+}
+.hidden-ul{
+    position: absolute;
+    background-color: #2c3e50;
+    top: 90%;
+    text-align: center;
+    display: none;
+}
+.hidden-ul li{
+    width: 100px;
+    text-transform: uppercase;
+    display: flex;
+    padding: 10px;
+}
+#hidden-uls:target{
+    display: block;
+}
 
 /*END HEADER  */
 
